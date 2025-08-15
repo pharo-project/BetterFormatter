@@ -1,0 +1,14 @@
+{
+  "name": "@freedmand/pretty-printing",
+  "main": "b8e5d54b82624bf3@1342.js",
+  "version": "1342.0.0",
+  "homepage": "https://observablehq.com/@freedmand/pretty-printing",
+  "author": {
+    "name": "Dylan Freedman",
+    "url": "https://observablehq.com/@freedmand"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}

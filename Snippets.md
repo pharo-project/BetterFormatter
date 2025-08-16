@@ -9,6 +9,37 @@ Some vocabulary first
 - tab decrement: to say - 1....
 
 
+### First method comment
+
+First comment should follow without new line the selector 
+
+```
+addError: anErrorMessage	"Add an error information to the node. Node with error information are considered faulty.	Semantic passes that check the validity of AST are the targetted clients of this method."	| notice |	notice := OCErrorNotice new messageText: anErrorMessage.	self addNotice: notice.	^ notice
+```
+
+over
+
+```
+addError: anErrorMessage
+	"Add an error information to the node. Node with error information are considered faulty.	Semantic passes that check the validity of AST are the targetted clients of this method."	| notice |	notice := OCErrorNotice new messageText: anErrorMessage.	self addNotice: notice.	^ notice
+```
+### First code when no comment
+
+Favor 
+```
+addError: anErrorMessage	| notice |	notice := OCErrorNotice new messageText: anErrorMessage.	self addNotice: notice.	^ notice
+```
+
+over
+
+```
+addError: anErrorMessage
+	| notice |	notice := OCErrorNotice new messageText: anErrorMessage.	self addNotice: notice.	^ notice
+```
+
+
+
+
 
 
 
